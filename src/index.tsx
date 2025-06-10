@@ -1,8 +1,8 @@
 export { DragDropProvider, useDragDropContext } from "./drag-drop-context";
 export { DragDropSensors } from "./drag-drop-sensors";
 export { createPointerSensor } from "./create-pointer-sensor";
-export { createDraggable, type Draggable as CDraggable } from "./create-draggable";
-export { createDroppable, type Droppable as CDroppable } from "./create-droppable";
+export { createDraggable } from "./create-draggable";
+export { createDroppable } from "./create-droppable";
 export { DragOverlay } from "./drag-overlay";
 export { SortableProvider, useSortableContext } from "./sortable-context";
 export { createSortable } from "./create-sortable";
