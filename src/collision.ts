@@ -18,8 +18,8 @@ const closestCenter: CollisionDetector = (draggable, droppables, context) => {
       collision.distance = distance;
       collision.droppable = droppable;
     } else if (
-      distance === collision.distance &&
-      droppable.id === context.activeDroppableId
+      distance == collision.distance &&
+      droppable.id == context.activeDroppableId
     ) {
       collision.droppable = droppable;
     }
